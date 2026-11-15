@@ -1,0 +1,10 @@
+Number,Name,Type
+1010,Cash - Operating account,Asset
+1200,Accounts receivable,Asset
+2000,Accounts payable,Liability
+2300,Customer deposits,Liability
+4000,Sales,Income
+6150,Bank fees,Expense
+6310,Office supplies,Expense
+6420,Repairs and maintenance,Expense
+7100,Rent,Expense

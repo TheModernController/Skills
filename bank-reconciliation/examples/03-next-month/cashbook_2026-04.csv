@@ -1,0 +1,11 @@
+line_id,date,type,reference,party,amount
+CB-101,2026-04-01,Journal,JE-0457,Bank fees,-35.00
+CB-102,2026-04-01,Journal,JE-0458,Mossy Print,90.00
+CB-103,2026-04-01,Journal,JE-0459,Cedar Freight,925.00
+CB-104,2026-04-02,Journal,,Customer deposits,1500.00
+CB-105,2026-04-06,Receipt,INV-1045,Willow Bakery,1980.00
+CB-106,2026-04-08,Payment,ACH-5524,Northline Supply,-2310.00
+CB-107,2026-04-14,Check,2054,Mossy Print,-615.25
+CB-108,2026-04-28,Check,2055,Cedar Freight,-740.00
+CB-109,2026-04-29,Payment,ACH-5525,Ashgrove Realty,-1150.00
+CB-110,2026-04-30,Receipt,INV-1046,Harbor Yoga,860.00
