@@ -33,11 +33,20 @@ There's nothing to install on your computer. The skill's scripts run in Claude's
 
 ## Install
 
-1. Download [bank-reconciliation-0.5.1.zip](https://github.com/TheModernController/Skills/raw/main/bank-reconciliation/bank-reconciliation-0.5.1.zip).
-2. In Claude's settings, turn on code execution and file creation (under Capabilities).
-3. Upload the ZIP where Claude manages skills. Claude's menu names change from time to time: it has been under Customize > Skills, and in the video the skill appears on the Plugins page.
+These steps were tested with version 0.5.1 on claude.ai:
+
+1. Download [bank-reconciliation-0.5.1.zip](https://github.com/TheModernController/Skills/raw/main/bank-reconciliation/bank-reconciliation-0.5.1.zip). Don't unzip it.
+2. Turn on code execution and file creation in Claude's settings.
+3. Upload the ZIP as a custom skill.
 4. Optional, once: in a new conversation, ask Claude to "run the bank reconciliation self-test". It builds a fictional workbook and checks its formulas.
 5. Start a new conversation and say something like "I'd like to reconcile my operating bank account." Claude asks for your files when it needs them.
+
+### Where to find these settings
+
+Claude's menus change from time to time, so the labels you see may differ:
+
+- **Uploading the skill:** when 0.5.1 was tested in November 2026, the ZIP was uploaded at Customize > Skills on claude.ai. In the video, the installed skill appears on a page titled Plugins.
+- **Code execution and file creation:** these are in Claude's settings, but their current menu label hasn't been confirmed. If you can't find them, search the settings for "code execution".
 
 ## Try it with the example files
 
@@ -64,4 +73,6 @@ The [examples](examples/README.md) folder has a fictional company's March and Ap
 
 0.5.1 was verified in Claude on fictional data with a hosted self-test, which recalculated every formula, and a manual two-month trial.
 
-Licensed under the [MIT License](../LICENSE).
+## License
+
+Licensed under the [MIT License](../LICENSE). No third-party code is bundled: the scripts use Python's standard library, plus openpyxl, which Claude's environment provides.
